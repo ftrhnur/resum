@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+ padding: 0;
+ font-family: 'Roboto Slab', sans-serif;
+ box-sizing: border-box;
+}
+
+body{
+ background: #6497D6;
+ color: #fff;
+}
+
+#header{
+ padding: 0px 0%;
+ width: 100%;
+ height: 100vh;
+ background-size: cover;
+}
+
+.holder{
+ padding: 0px 0%;
+}
+
+.logonew{
+ float: left;
+ width: 30 px;
+ margin-left: 5px;
+ margin-top: 5px;
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ width: 100%;
+ background-color: #F8D8B2;
+ font-weight: 340;
+}
+
+nav ul{
+ float: right;
+ margin-right: 100px;
+}
+
+nav ul li{
+ display: inline-block;
+ list-style: none;
+ margin-top: 10px;
+}
+
+nav ul li a{
+ color: #1d477a;
+ text-decoration: none;
+ font-size: 20px;
+ position: relative;
+ text-align: center;
+ padding: 30px 14px;
+}
+
+nav ul li a::after{
+ content: '';
+ width: 0%;
+ height: 3px;
+ background: #0f253f;
+ position: absolute;
+ left: 0;
+ bottom: 28px;
+ transition: 0.5s ease;
+}
+
+nav ul li a:hover::after{
+ width: 100%;
+}
+
+/*---------About Me--------- */
+
+#aboutme{
+    padding: 80px;
+    color: #0f253f
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutpic{
+   flex-basis: 30%;
+}
+
+.aboutpic img{
+  padding: 0%;
+  border-style: none;
+  width: 100%;
+  border-radius: 30px;
+  margin-right: 0%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 2%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 h1{
+   text-align: center;
+   margin-top: 2px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0f253f;
+    text-shadow: 2px 2px 1px #ffe9ce;
+    margin-bottom: 60px;
+}
+
+/*----------Copyright----------*/
+
+footer{
+   background-color:#F8D8B2;
+   color: #0f253f;
+   text-align: center;
+   padding: 1%;
+}

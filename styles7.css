@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+   padding: 0;
+   font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  body{
+   background: #6497D6;
+   color: #fff;
+  }
+  
+  #header{
+   padding: 0px 0%;
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+ }
+  
+  .holder{
+   padding: 0px 0%;
+  }
+  
+  .logonew{
+   float: left;
+   width: 30 px;
+   margin-left: 5px;
+   margin-top: 5px;
+  }
+  
+  nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+   background-color: #F8D8B2;
+   font-weight: 340;
+  }
+  
+  nav ul{
+   float: right;
+   margin-right: 100px;
+  }
+  
+  nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin-top: 10px;
+  }
+  
+  nav ul li a{
+   color: #1d477a;
+   text-decoration: none;
+   font-size: 20px;
+   position: relative;
+   text-align: center;
+   padding: 30px 14px;
+  }
+  
+  nav ul li a::after{
+   content: '';
+   width: 0%;
+   height: 3px;
+   background: #0f253f;
+   position: absolute;
+   left: 0;
+   bottom: 28px;
+   transition: 0.5s ease;
+  }
+  
+  nav ul li a:hover::after{
+   width: 100%;
+  }
+
+/*---------------ACHIEVEMENT---------------*/
+
+#achievement{
+    background-color: #6497D6;
+}
+
+.tab-titles{
+    margin-right: auto;
+    margin-left: auto;
+ }
+ 
+ .tab-titles h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #0f253f;
+    text-shadow: 2px 2px 1px #F8D8B2;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-decoration: 10px underline;
+ }
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.year{
+    color: #0f253f;
+    padding-top: 7%;
+    padding-left: 1%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+.year h3{
+    margin-bottom: 70px;
+}
+
+.achieve{
+    color: #0f253f;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-left: 5%;
+    flex-basis: 55%;
+    text-align: left;
+}
+
+.achieve ul{
+    float:left;
+    margin-right: 90px;
+}
+
+.achieve ul li{
+    display: inline-block;
+   list-style: none;
+   margin-top: 75px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.pic{
+    margin: auto;
+    padding-bottom: 1.5%;
+    margin-left: 20px;
+}
+
+/*---------FOOTER-----------*/
+
+footer{
+    background-color:#F8D8B2;
+    color: #0f253f;
+    text-align: center;
+    padding: 1%;
+ }
